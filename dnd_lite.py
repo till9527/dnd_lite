@@ -5,7 +5,7 @@ import tkinter as tk
 from tkinter import ttk, scrolledtext
 
 # Google Gemini API configuration
-os.environ["GEMINI_API_KEY"] = "AIzaSyCr9oOQne6hVZ1rNg5PaXmklIN-z4tcA5Q"
+os.environ["GEMINI_API_KEY"] = "my-api-key"
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 # Race and Weapon Data
